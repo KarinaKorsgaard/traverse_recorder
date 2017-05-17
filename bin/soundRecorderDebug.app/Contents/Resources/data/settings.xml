@@ -1,0 +1,8 @@
+<group>
+	<threshold>0.06</threshold>
+	<wait>1</wait>
+<group/>
+	<volume_threshold>0.26</volume_threshold>
+	<allowed_pauses>0.78</allowed_pauses>
+	<Min_Sample_Length>5.5</Min_Sample_Length>
+</group>
