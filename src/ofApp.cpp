@@ -28,7 +28,7 @@ void ofApp::setup(){
     dir.listDir(path);
     dir.sort();
     
-    message = dir.isDirectory()? "directory found, looking in: "+filePath:"error: directory not found. Change path in config.xml";
+    message = dir.isDirectory()? "directory found, looking in: "+filePath:"error: directory not found. Change path in config.xml "+filePath;
     
     
     if(dir.size()>0){
