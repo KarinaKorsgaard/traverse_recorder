@@ -11,16 +11,16 @@ void ofApp::setup(){
 	ofSoundStreamSetup(0,NUM_CHANNELS,this, SAMPLE_RATE,BUFFER_SIZE,4);
     
     gui.setup();
-    gui.add(thresholdLOW.set("volume threshold",0,0,0.5));
-    gui.add(wait.set("allowed pauses",0,0,2));
-    gui.add(minSampleLength.set("Min Sample Length",0,0,20));
+    gui.add(thresholdLOW.set("volume threshold",0.26,0,0.5));
+    gui.add(wait.set("allowed pauses",0.80,0,2));
+    gui.add(minSampleLength.set("Min Sample Length",3.,0,20));
     
     gui.loadFromFile("settings.xml");
     
     ofxXmlSettings xml;
-    xml.load("config.xml");
-    filePath = xml.getValue("config:path", "");
-    
+    if(xml.load("config.xml"))
+       filePath = xml.getValue("config:path", "");
+    else filePath = "Users/annelieberner/Dropbox/sounds/outro/";
     
     ofDirectory dir;
     string path =filePath;

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ABDE4C1DB3C0920326B61D60F2B84CB5AEC52327",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5DFB275C6763DE1710425503F6A3FD40F0623C0E" : 0,
+    "ABDE4C1DB3C0920326B61D60F2B84CB5AEC52327" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7FC6B058-C2D5-47BE-90EE-3AD28013ADFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5DFB275C6763DE1710425503F6A3FD40F0623C0E" : "..\/..\/addons\/ofxLibsndfileRecorder",
+    "ABDE4C1DB3C0920326B61D60F2B84CB5AEC52327" : "soundRecorder\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "soundRecorder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "soundRecorder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/angeloseme\/ofxLibsndfileRecorder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DFB275C6763DE1710425503F6A3FD40F0623C0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KarinaKorsgaard\/traverse_recorder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABDE4C1DB3C0920326B61D60F2B84CB5AEC52327"
+    }
+  ]
+}
