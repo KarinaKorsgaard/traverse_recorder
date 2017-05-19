@@ -12,7 +12,7 @@ void ofApp::setup(){
     
     gui.setup();
     gui.add(thresholdLOW.set("volume threshold",0.26,0,0.5));
-    gui.add(wait.set("allowed pauses",0.80,0,2));
+    gui.add(wait.set("allowed pauses",0.80,0,10));
     gui.add(minSampleLength.set("Min Sample Length",3.,0,20));
     
     gui.loadFromFile("settings.xml");
